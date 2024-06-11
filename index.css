@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color : white;
+}
+
+.bg {
+     background-image: url("https://img.freepik.com/free-photo/beautiful-flamingos-lake_23-2150536816.jpg?t=st=1718086667~exp=1718090267~hmac=013ee914dc4b32aa65c9dc7a9829214562cfcf9071d8cff53057d09b53d721cd&w=360");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    transform: translate(-50% -50%);
+    z-index: 1;
+    /* filter : grayscale(0.42) */
+}
+
+main {
+    margin: 7%;
+    padding: 5%;
+    z-index: 2;
+     max-width: 75%;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(#abecd6 0%, #fbed96 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  /* background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%); */
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button:hover, button:active, button:focus {
+    outline: none;
+}
+
+#increment-btn {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+
+#save-btn {
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
